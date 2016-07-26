@@ -80,7 +80,7 @@ public class MyStack<E> {
 		if (kosong())
 			throw new ListIsEmptyException();
 		else
-			return myStack.peekLast();
+			return myStack.peekFirst();
 	}
 
 	/**
