@@ -15,7 +15,7 @@ public class MyQueue<E> {
 	LinkedList<E> myQueue = new LinkedList<E>();
 	
 	/**
-	 * Memasukkan data ke dalam list di posisi terakhir.
+	 * Memasukkan data ke dalam list di posisi paling akhir.
 	 * 
 	 * @param x
 	 *            adalah data yang akan dimasukkan.
@@ -27,7 +27,7 @@ public class MyQueue<E> {
 	/**
 	 * Mengeluarkan data pertama yang ada di dalam list.
 	 * 
-	 * @return Data yang dikeluarkan.
+	 * @return Data pada posisi terdepan.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */
@@ -69,9 +69,9 @@ public class MyQueue<E> {
 	}
 
 	/**
-	 * Mengembalikan data pertama yang ada di dalam list.
+	 * Mengembalikan data terdepan yang ada di dalam list.
 	 * 
-	 * @return Data pertama.
+	 * @return Data terdepan.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */

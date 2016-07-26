@@ -28,7 +28,7 @@ public class MyStack<E> {
 	/**
 	 * Mengeluarkan data pada posisi teratas dari dalam list.
 	 * 
-	 * @return Data yang dikeluarkan.
+	 * @return Data pada posisi teratas.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */
