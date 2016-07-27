@@ -11,6 +11,8 @@ public class MyQueueTester {
 	
 	/**
 	 * Method yang akan dijalankan pada saat aplikasi dijalankan.
+	 * 
+	 * @param args adalah command line argumen.
 	 * */
 	public static void main(String[] args) {
 		MyQueue<String> myQueue = new MyQueue<String>();

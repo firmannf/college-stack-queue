@@ -27,7 +27,7 @@ public class MyQueue<E> {
 	/**
 	 * Mengeluarkan data pertama yang ada di dalam list.
 	 * 
-	 * @return Data pada posisi terdepan.
+	 * @return Data pada posisi terdepan/pertama.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */
@@ -69,9 +69,9 @@ public class MyQueue<E> {
 	}
 
 	/**
-	 * Mengembalikan data terdepan yang ada di dalam list.
+	 * Mengembalikan data pertama yang ada di dalam list.
 	 * 
-	 * @return Data terdepan.
+	 * @return Data terdepan/pertama.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */

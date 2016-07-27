@@ -16,7 +16,7 @@ public class MyStack<E> {
 	LinkedList<E> myStack = new LinkedList<E>();
 
 	/**
-	 * Memasukkan data ke dalam list di posisi paling atas.
+	 * Memasukkan data ke dalam list di posisi pertama.
 	 * 
 	 * @param x
 	 *            adalah data yang akan dimasukkan.
@@ -26,9 +26,9 @@ public class MyStack<E> {
 	}
 
 	/**
-	 * Mengeluarkan data pada posisi teratas dari dalam list.
+	 * Mengeluarkan data pada posisi pertama dari dalam list.
 	 * 
-	 * @return Data pada posisi teratas.
+	 * @return Data pada posisi pertama.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */
@@ -70,9 +70,9 @@ public class MyStack<E> {
 	}
 
 	/**
-	 * Mengembalikan data teratas yang ada di dalam list.
+	 * Mengembalikan data pertama yang ada di dalam list.
 	 * 
-	 * @return Data teratas.
+	 * @return Data pertama.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */
@@ -86,7 +86,6 @@ public class MyStack<E> {
 	/**
 	 * Membalikkan urutan dari list.
 	 * 
-	 * @return List yang sudah dibalik urutannya.
 	 * @exception ListIsEmptyException
 	 *                Jika list dalam keadaan kosong.
 	 * */

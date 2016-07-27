@@ -11,6 +11,8 @@ public class MyStackTester {
 
 	/**
 	 * Method yang akan dijalankan pada saat aplikasi dijalankan.
+	 * 
+	 * @param args adalah command line argumen.
 	 * */
 	public static void main(String[] args) {
 		MyStack<Integer> myStack = new MyStack<Integer>();
